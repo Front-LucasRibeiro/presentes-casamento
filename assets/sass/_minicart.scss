@@ -1,0 +1,12 @@
+.ast-desktop .astra-cart-drawer{
+  width: 100%;
+  max-width: 420px;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li, .woocommerce.widget_shopping_cart .cart_list li{
+  padding: 1.8em 0 1.2em 5em;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li a.remove, .woocommerce.widget_shopping_cart .cart_list li a.remove{
+  top: 5px;
+}

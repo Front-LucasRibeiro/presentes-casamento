@@ -1,0 +1,16 @@
+@import "./header";
+@import "./footer";
+@import "./produto";
+@import "./minicart";
+@import "./sidebar";
+@import "./checkout";
+@import "./modal-noivos";
+@import "./galeria";
+
+.star-rating {
+  display: none !important;
+}
+
+.page-title {
+  font-size: 2rem !important;
+}

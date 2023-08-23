@@ -1,0 +1,48 @@
+.ast-shipping-text,
+.ast-header-account,
+#wpadminbar{
+  display: none;
+}
+
+.ast-builder-menu-1 .menu-item > .menu-link{
+  @media (min-width: 1230px){
+    padding: 0 8px!important;
+  }
+}
+
+.ast-desktop .ast-primary-header-bar .main-header-menu > .menu-item{
+  @media (min-width: 1230px){
+    font-size: 14px;
+  }
+}
+
+#ast-mobile-header{
+  @media (max-width: 1229px){
+    display: block!important;
+  }
+}
+
+#ast-desktop-header{
+  @media (max-width: 1229px){
+    display: none!important;
+  }
+}
+
+.ast-primary-header-bar{
+  @media (max-width: 1229px){
+    padding: 0 14px!important;
+  }
+}
+
+.menu-toggle.main-header-menu-toggle.ast-mobile-menu-trigger-fill{
+  &:before{
+    content: "Menu";
+    display: inline-block;
+    font-size: 11px;
+    padding-right: 2px;
+  }
+}
+
+.ast-woo-header-cart-info-wrap .woocommerce-Price-amount.amount{
+  display: none!important;
+}

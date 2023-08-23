@@ -1,0 +1,14 @@
+.ast-woo-sidebar-widget.woocommerce.widget_top_rated_products{
+  display: none!important;
+}
+
+.ast-woo-sidebar-widget.widget.woocommerce.widget_product_categories{
+  .widget-title{
+    font-size: 0!important;
+
+    &:before{
+      content: "Categorias";
+      font-size: 1.7rem;
+    }
+  }
+}

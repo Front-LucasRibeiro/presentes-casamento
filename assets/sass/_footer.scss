@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@300;700&family=Lexend:wght@500;700&family=Pacifico&family=Unlock&display=swap");
+
+button#place_order {
+  margin-top: 22px;
+}
+
+.footer-top{
+  .suporte{
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    margin-top: 72px;
+    text-align: center;
+  }
+}
+
+.footer-top {
+  border-top: 2px solid #7b193f;
+  background-color: #fff;
+
+  a{
+    &:hover{
+      color: #7b193f!important;
+    }
+  }
+
+  .container-site {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 22px 12px;
+    width: 100%;
+
+    > div {
+      @media (max-width: 767px) {
+        margin-bottom: 22px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    h2 {
+      color: #7b193f;
+      font-size: 18px;
+      margin-bottom: 18px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        a {
+          color: #222;
+
+          &:hover {
+            color: #0084d6;
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer-bottom {
+  background-color: #7b193f !important;
+  padding: 8px 12px !important;
+
+  p {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+
+    @media (max-width: 767px) {
+      max-width: 310px;
+      margin: 0 auto;
+    }
+  }
+}
+
+footer {
+  .site-below-footer-wrap {
+    background-color: #7b193f !important;
+    padding: 8px 12px !important;
+  }
+
+  .widget-title {
+    font-size: 15.5px !important;
+    font-weight: bold !important;
+
+    @media (max-width: 544px) {
+      margin-bottom: 8px;
+    }
+  }
+
+  .site-footer-section {
+    a {
+      white-space: nowrap;
+    }
+
+    @media (max-width: 544px) {
+      margin-top: 14px;
+    }
+  }
+
+  .widget.widget_nav_menu {
+    margin-bottom: 0 !important;
+  }
+}
+
+label[for="shipping_method_0_local_pickup2"] {
+  @media (max-width: 921px) {
+    text-align: center;
+    margin: 8px 12px !important;
+  }
+}
+
+td[data-title="Entrega"] {
+  @media (max-width: 921px) {
+    display: flex !important;
+    flex-direction: column;
+  }
+}
+
+.select2-container {
+  max-width: 100%;
+}
+
+#shipping_method {
+  @media (max-width: 921px) {
+    margin: 12px 0 !important;
+    text-align: center;
+  }
+}
+
+.woocommerce table.shop_table_responsive tr td::before,
+.woocommerce-page table.shop_table_responsive tr td::before {
+  @media (max-width: 921px) {
+    text-align: left;
+  }
+}

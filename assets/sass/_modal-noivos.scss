@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Marcellus+SC&display=swap");
+
+.modal-noivos {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 10000;
+
+  .conteudo {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: 740px;
+    height: 450px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+      height: auto;
+      width: 296px;
+      max-height: 95%;
+
+      img {
+        max-width: 296px;
+      }
+
+      br{
+        display: none;
+      }
+    }
+
+    .fechar {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #ddd;
+      border-radius: 0 3px;
+      font-size: 25px;
+      font-weight: bold;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #7b193f;
+        color: #fff;
+      }
+    }
+
+    img {
+      max-width: 360px;
+    }
+
+    .conteudo-text {
+      width: 100%;
+
+      @media (max-width: 767px) {
+        position: absolute;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.3);
+      }
+
+      p {
+        text-align: center;
+        margin: 0;
+
+        &:nth-of-type(1) {
+          font-size: 28px;
+          color: #000;
+          line-height: 32px;
+          text-shadow: #222 -1px 1px;
+
+          @media (max-width: 767px) {
+            font-size: 20px;
+            line-height: 20px;
+            margin-top: 8px;
+            color: #fff;
+
+            margin-top: 12px;
+          }
+        }
+        &:nth-of-type(2) {
+          font-family: "Marcellus SC", serif;
+          color: #7b193f;
+          font-size: 32px;
+          font-weight: bold;
+          text-shadow: #ddd 2px 3px;
+
+          @media (max-width: 767px) {
+            font-size: 24px;
+            line-height: 24px;
+            margin: 12px 0 8px;
+            text-shadow: #fff 0px 1px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}

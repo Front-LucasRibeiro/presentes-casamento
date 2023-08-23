@@ -1,0 +1,87 @@
+
+li.woocommerce-order-overview__email.email,
+.woocommerce-customer-details,
+#billing_email_field,
+#billing_cellphone_field,
+#billing_country_field,
+#billing_company_field,
+#billing_persontype_field{
+  display: none!important;
+}
+
+.woocommerce-privacy-policy-text{
+  display: none!important;
+}
+
+.woocommerce-form-coupon-toggle .woocommerce-info{
+  font-size: 0!important;
+  padding-top: 64px!important;
+}
+
+
+.woocommerce-additional-fields__field-wrapper{
+  label[for="order_comments"]{
+    font-size: 0!important;
+    &:before{
+      content: "Deixe uma mensagem para os noivos:";
+      font-size: .9rem;
+    }
+  }
+}
+
+.has-text-align-center.wp-block-heading{
+  font-size: 0;
+  &:before{
+    content: "Carrinho";
+    font-size: 4.125rem;
+
+    @media (max-width: 480px){
+      font-size: 22px;
+    }
+  }
+}
+
+.wc-proceed-to-checkout{
+  .checkout-button.button.alt.wc-forward{
+    font-size: 0;
+    &:before{
+      content: "Finalizar Compra";
+      font-size: 17px;
+      line-height: 17px;
+  
+      @media (max-width: 480px){
+        font-size: 15px;
+        line-height: 15px;
+      }
+    }
+  }
+}
+
+.woocommerce-mini-cart__empty-message{
+  font-size: 0;
+  &:before{
+    content: "Carrinho vazio.";
+    font-size: 16px;
+  }
+}
+
+.button.wc-forward.ast-continue-shopping{
+  font-size: 0;
+  &:before{
+    content: "Continue comprando";
+    font-size: 16px;
+  }
+}
+
+.woocommerce-cart-form{
+  .actions{
+    display: none!important;
+  }
+  .coupon{
+    display: none!important;
+  }
+}
+
+.product-quantity{
+  font-size: 0!important;
+}
