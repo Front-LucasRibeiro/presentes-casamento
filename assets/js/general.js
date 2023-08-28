@@ -5,8 +5,6 @@ function fieldsCheckout() {
   $('[name="order_comments"]').removeAttr('placeholder')
   $('.woocommerce-billing-fields p.form-row').removeClass('validate-required')
   $('.woocommerce-billing-fields p.form-row').removeClass('validate-postcode')
-
-  $('#billing_email').val('novopedido@gmail.com')
 }
 
 function openModalNoivos() {
