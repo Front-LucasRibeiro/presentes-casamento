@@ -21,6 +21,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php astra_head_top(); ?>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:image" content="http://presentescasamento.com.br/wp-content/uploads/2023/08/Lucas-Ray-69.jpg" />
+<link rel="icon" href="http://presentescasamento.com.br/wp-content/uploads/2023/08/Lucas-Ray-69.jpg" type="image/svg+xml">
 <?php 
 if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 	?>
